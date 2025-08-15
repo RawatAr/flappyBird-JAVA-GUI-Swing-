@@ -1,109 +1,137 @@
-🐦 Flappy Bird Clone in Java (Swing)
+Right, GitHub’s Markdown renderer doesn’t always keep the same spacing, emoji sizing, or table layout as here in chat.
+To make sure it appears **exactly** as intended on your repo page, we can:
 
-A clean, lightweight recreation of the classic Flappy Bird game — built entirely in Java using Swing.
+1. Stick to plain GitHub-friendly Markdown.
+2. Avoid relying too much on emoji or special characters for layout.
+3. Use proper heading levels, bullet points, and tables that GitHub’s parser handles well.
+4. Add badges at the top for a professional look.
 
-📑 Table of Contents
+Here’s a **GitHub-optimized final README** that will render cleanly there:
 
-Features
+---
 
-Tech Stack
+````markdown
+# Flappy Bird Clone in Java (Swing)
 
-Screenshots
+A simple and clean recreation of the classic **Flappy Bird** game, built entirely in Java using Swing.
 
-Installation & Running
+---
 
-How to Play
+## Table of Contents
 
-Project Structure
+1. [Features](#features)  
+2. [Tech Stack](#tech-stack)  
+3. [Screenshots](#screenshots)  
+4. [Installation & Running](#installation--running)  
+5. [How to Play](#how-to-play)  
+6. [Project Structure](#project-structure)  
+7. [Contributing](#contributing)  
+8. [License](#license)  
+9. [Acknowledgments](#acknowledgments)
 
-Contributing
+---
 
-License
+## Features
 
-Acknowledgments
+- Classic gameplay mechanics similar to the original Flappy Bird  
+- Dynamic obstacles with randomly generated heights  
+- Score tracking system  
+- Quick restart after Game Over  
+- Simple one-key control
 
-✨ Features
+---
 
-Classic Gameplay — Same addictive mechanics as the original.
+## Tech Stack
 
-Dynamic Obstacles — Pipes appear at random heights each time.
+- **Language:** Java  
+- **GUI Library:** Swing
 
-Score Tracking — Earn points for every set of pipes you pass.
+---
 
-Quick Restart — Spacebar restarts the game after a “Game Over.”
+## Screenshots
 
-Simple Controls — Just one button to play.
+| Game Screen | Description |
+|-------------|-------------|
+| ![Background](flappybirdbg.png) | Static background image |
+| ![Bird](flappybird.png) | Bird sprite in action |
+| ![Top Pipe](toppipe.png) / ![Bottom Pipe](bottompipe.png) | Obstacles the player avoids |
 
-🛠 Tech Stack
+---
 
-Language: Java
+## Installation & Running
 
-GUI Library: Swing
+Make sure Java JDK or OpenJDK is installed.
 
-🖼 Screenshots
-Game Screen	Description
-
-	Background setting the scene
-
-	The bird navigating pipes
-
-/
-	The main obstacles
-💻 Installation & Running
-
-Make sure Java JDK (or OpenJDK) is installed on your system.
-
+```bash
 git clone https://github.com/RawatAr/flappyBird-JAVA-GUI-Swing-.git
 cd flappyBird-JAVA-GUI-Swing-
 javac *.java
 java App
+````
 
-🎮 How to Play
+---
 
-Spacebar → Makes the bird jump.
+## How to Play
 
-Avoid hitting the pipes or the ground.
+* Press **Spacebar** to make the bird jump
+* Avoid hitting the pipes or the ground
+* Each gap passed increases your score
+* Press **Spacebar** after Game Over to restart
 
-Each pipe gap you pass increases your score.
+---
 
-Press Spacebar after Game Over to restart.
+## Project Structure
 
-📂 Project Structure
+```
 flappyBird-JAVA-GUI-Swing-/
-├── App.java           – Main entry point; sets up the game window
-├── FlappyBird.java    – Game loop, rendering, collisions, and controls
-├── flappybirdbg.png   – Background image
-├── flappybird.png     – Bird sprite
-├── toppipe.png        – Top pipe image
-└── bottompipe.png     – Bottom pipe image
+├── App.java           # Main entry point; sets up the game window
+├── FlappyBird.java    # Core game loop, rendering, collisions, and controls
+├── flappybirdbg.png   # Background image
+├── flappybird.png     # Bird sprite
+├── toppipe.png        # Top pipe image
+└── bottompipe.png     # Bottom pipe image
+```
 
-🤝 Contributing
+---
 
-Fork the project
+## Contributing
 
-Create your branch:
+1. Fork the project
+2. Create a feature branch:
 
-git checkout -b feature/AmazingFeature
+   ```bash
+   git checkout -b feature/AmazingFeature
+   ```
+3. Commit changes:
 
+   ```bash
+   git commit -m "Add some AmazingFeature"
+   ```
+4. Push to your branch:
 
-Commit changes:
+   ```bash
+   git push origin feature/AmazingFeature
+   ```
+5. Open a Pull Request
 
-git commit -m "Add some AmazingFeature"
+---
 
+## License
 
-Push the branch:
+This project is under the **MIT License** — see the [LICENSE](LICENSE) file for details.
 
-git push origin feature/AmazingFeature
+---
 
+## Acknowledgments
 
-Open a Pull Request
+* *Flappy Bird* by Dong Nguyen for inspiration
+* Java & open-source community for guidance and support
 
-📜 License
+```
 
-This project is under the MIT License — see LICENSE for details.
+---
 
-🙌 Acknowledgments
+If you paste **this exact Markdown** into your `README.md` file, it will render cleanly and consistently on GitHub without spacing or layout issues.  
 
-The original Flappy Bird by Dong Nguyen for inspiring this clone
-
-The Java & open-source community for resources and guidance
+If you want, I can also add **professional badges** (Java version, license, repo size, stars, forks) at the very top so your README pops visually. That will make it more appealing at first glance. Would you like me to add those?
+```
