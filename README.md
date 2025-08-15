@@ -69,4 +69,9 @@ cd flappyBird-JAVA-GUI-Swing-
 javac *.java
 java App
 
+## 🎮 How to Play
+- **Press** `Spacebar` to make the bird jump
+- **Avoid** hitting the pipes or the ground
+- **Score** increases with every gap you pass
+- **Restart**: Press `Spacebar` after Game Over
 
