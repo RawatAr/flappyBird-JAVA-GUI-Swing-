@@ -68,3 +68,5 @@ git clone https://github.com/RawatAr/flappyBird-JAVA-GUI-Swing-.git
 cd flappyBird-JAVA-GUI-Swing-
 javac *.java
 java App
+
+
