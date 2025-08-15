@@ -13,7 +13,6 @@ Simple mechanics, addictive gameplay, and a nostalgic feel. 🎮
 
 ## 🎥 Live Demo
 
-![Flappy Bird Gameplay]
 ![Image](https://github.com/user-attachments/assets/45745daf-504d-412c-a3cc-a6f190819595)
 
 
