@@ -13,7 +13,7 @@ Simple mechanics, addictive gameplay, and a nostalgic feel. 🎮
 
 ## 🎥 Live Demo
 
-![Flappy Bird Gameplay](demo.gif)  
+![Flappy Bird Gameplay](assets/Flappy gif)  
 *(Replace `demo.gif` with your actual gameplay GIF — store it in the repo root for it to display here.)*
 
 ---
