@@ -1,86 +1,109 @@
-Flappy Bird Clone in Java 🐦
-A classic Flappy Bird game recreated using Java and the Swing library. This project is a simple and fun demonstration of 2D game development principles, including real-time rendering, user input handling, and collision detection.
+🐦 Flappy Bird Clone in Java (Swing)
 
-🌟 Features
-Classic Gameplay: Experience the original, addictive Flappy Bird mechanics.
+A clean, lightweight recreation of the classic Flappy Bird game — built entirely in Java using Swing.
 
-Dynamic Obstacles: Pipes are generated at random heights to keep you on your toes.
+📑 Table of Contents
 
-Score Tracking: Your score increases for every pair of pipes you successfully pass.
+Features
 
-Game Over & Restart: The game ends on collision, but you can instantly restart by pressing the spacebar.
+Tech Stack
 
-Simple Controls: All you need is the spacebar to play!
+Screenshots
 
-🛠️ Technologies Used
-This project is built with:
+Installation & Running
 
-Java: The core programming language used for the game logic.
+How to Play
 
-Java Swing: Used for creating the graphical user interface (GUI) and rendering the game elements.
+Project Structure
 
-🚀 Getting Started
-To get a local copy up and running, follow these simple steps.
+Contributing
 
-Prerequisites
-Make sure you have the Java Development Kit (JDK) installed on your machine. You can download it from the official Oracle website or use an open-source alternative like OpenJDK.
+License
 
-Installation & Execution
-Clone the repository:
+Acknowledgments
 
-git clone https://github.com/your-username/flappy-bird-java.git
+✨ Features
 
-Navigate to the project directory:
+Classic Gameplay — Same addictive mechanics as the original.
 
-cd flappy-bird-java
+Dynamic Obstacles — Pipes appear at random heights each time.
 
-Compile the Java files:
+Score Tracking — Earn points for every set of pipes you pass.
 
+Quick Restart — Spacebar restarts the game after a “Game Over.”
+
+Simple Controls — Just one button to play.
+
+🛠 Tech Stack
+
+Language: Java
+
+GUI Library: Swing
+
+🖼 Screenshots
+Game Screen	Description
+
+	Background setting the scene
+
+	The bird navigating pipes
+
+/
+	The main obstacles
+💻 Installation & Running
+
+Make sure Java JDK (or OpenJDK) is installed on your system.
+
+git clone https://github.com/RawatAr/flappyBird-JAVA-GUI-Swing-.git
+cd flappyBird-JAVA-GUI-Swing-
 javac *.java
-
-Run the application:
-
 java App
 
 🎮 How to Play
-Press the Spacebar to make the bird jump.
 
-Navigate the bird through the gaps in the pipes to score points.
+Spacebar → Makes the bird jump.
 
-If the bird hits a pipe or the ground, the game is over.
+Avoid hitting the pipes or the ground.
 
-After a "Game Over," press the Spacebar again to restart the game.
+Each pipe gap you pass increases your score.
+
+Press Spacebar after Game Over to restart.
 
 📂 Project Structure
-Here's a brief overview of the key files in this project:
-
-flappy-bird-java/
-├── App.java             # The main entry point of the application. Initializes the game window.
-├── FlappyBird.java      # Contains all the game logic, rendering, and event handling.
-├── flappybirdbg.png     # The background image for the game.
-├── flappybird.png       # The sprite for the bird.
-├── toppipe.png          # The image for the top pipe.
-└── bottompipe.png       # The image for the bottom pipe.
+flappyBird-JAVA-GUI-Swing-/
+├── App.java           – Main entry point; sets up the game window
+├── FlappyBird.java    – Game loop, rendering, collisions, and controls
+├── flappybirdbg.png   – Background image
+├── flappybird.png     – Bird sprite
+├── toppipe.png        – Top pipe image
+└── bottompipe.png     – Bottom pipe image
 
 🤝 Contributing
-Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
 
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+Fork the project
 
-Fork the Project
+Create your branch:
 
-Create your Feature Branch (git checkout -b feature/AmazingFeature)
+git checkout -b feature/AmazingFeature
 
-Commit your Changes (git commit -m 'Add some AmazingFeature')
 
-Push to the Branch (git push origin feature/AmazingFeature)
+Commit changes:
+
+git commit -m "Add some AmazingFeature"
+
+
+Push the branch:
+
+git push origin feature/AmazingFeature
+
 
 Open a Pull Request
 
-📄 License
-Distributed under the MIT License. See LICENSE for more information.
+📜 License
 
-🙏 Acknowledgments
-Inspired by the original Flappy Bird game by Dong Nguyen.
+This project is under the MIT License — see LICENSE for details.
 
-A big thanks to the Java and open-source communities.
+🙌 Acknowledgments
+
+The original Flappy Bird by Dong Nguyen for inspiring this clone
+
+The Java & open-source community for resources and guidance
